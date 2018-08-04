@@ -281,7 +281,7 @@ def long_name_steals_a_ton?
   most_steals = 0
   long_name_steals = 0
   game_hash.each do |location, team_data|
-    binding.pry
+    # binding.pry
     if team_data[:players].keys.include?(longest_name)
       long_name_steals = team_data[:players][longest_name][:steals]
     end 
