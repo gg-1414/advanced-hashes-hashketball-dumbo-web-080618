@@ -1,4 +1,5 @@
 require 'pry'
+require 'byebug'
 
 def game_hash
   game_hash = {
@@ -281,6 +282,7 @@ def long_name_steals_a_ton?
   most_steals = 0
   long_name_steals = 0
   game_hash.each do |location, team_data|
+    debugger
     long_name_steals = team_data[:players][longest_name][:steals]
     team_data[:players].each do |player_name, stats|
       if team_data[:players][player_name][steals] > most_steals
