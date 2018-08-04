@@ -298,12 +298,4 @@ def long_name_steals_a_ton?
   return false
 end 
 
-def long_name?
-  # longest_name = ""
-  longest_name = player_with_longest_name
-  puts longest_name
-end 
-
-long_name?
-
 
