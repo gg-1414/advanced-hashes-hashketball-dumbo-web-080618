@@ -1,6 +1,6 @@
-require 'pry
+require 'pry'
 
-:game_hash = {
+GAME_HASH = {
     home: {
       team_name: "Brooklyn Nets",
       colors: ["Black", "White"],
