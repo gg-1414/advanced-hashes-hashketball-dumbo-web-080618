@@ -120,7 +120,7 @@ end
 
 def shoe_size(player)
   player_shoe = nil
-  GAME_HASH.each do |location, team_data|
+  game_hash.each do |location, team_data|
     team_data.each do |team_data_key, team_data_value|
       if team_data_key == :players
         team_data_value.each do |player_name, player_stats|
