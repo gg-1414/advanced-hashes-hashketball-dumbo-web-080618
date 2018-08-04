@@ -113,6 +113,7 @@ game_hash = {
         }
       }
     }
+}
 
 def num_points_scored(player)
   player_stats(player)[:points]
