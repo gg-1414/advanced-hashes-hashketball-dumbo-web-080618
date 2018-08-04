@@ -286,7 +286,7 @@ def long_name_steals_a_ton?
       long_name_steals = team_data[:players][longest_name][:steals]
     end 
     team_data[:players].each do |player_name, stats|
-      if team_data[:players][player_name][steals] > most_steals
+      if team_data[:players][player_name][:steals] > most_steals
         most_steals = team_data[:players][player_name][steals]
       end 
     end 
