@@ -295,8 +295,8 @@ def long_name_steals_a_ton?
     if long_name_steals >= most_steals
       return true
     end 
-    return false
   end 
+  return false
 end 
 
 def long_name?
