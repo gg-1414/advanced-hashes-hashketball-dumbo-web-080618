@@ -1,5 +1,4 @@
 require 'pry'
-require 'byebug'
 
 def game_hash
   game_hash = {
