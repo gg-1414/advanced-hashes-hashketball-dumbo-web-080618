@@ -291,7 +291,6 @@ def long_name_steals_a_ton?
         most_steals = team_data[:players][player_name][:steals]
       end 
     end 
-    debugger
     if long_name_steals >= most_steals
       return true
     end 
